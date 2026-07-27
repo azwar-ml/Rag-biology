@@ -1,1 +1,1 @@
-# Rag-biology
+# Biology RAG Project
