@@ -24,7 +24,8 @@ class LLMFactory:
                     response = client.models.generate_content(
                         model=model,
                         contents=prompt,
-                        config=types.GenerateContentConfig(temperature=0.2, system_instruction=system_instruction)
+                        # CHANGED: temperature=0.0 for strict verbatim extraction
+                        config=types.GenerateContentConfig(temperature=0.0, system_instruction=system_instruction)
                     )
                     if response.text: return response.text
                     else: raise Exception("Empty response from Gemini")
@@ -33,7 +34,8 @@ class LLMFactory:
                     res = requests.post(
                         "https://openrouter.ai/api/v1/chat/completions",
                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                        json={"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.2}
+                        # CHANGED: temperature: 0.0
+                        json={"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.0}
                     )
                     if res.status_code == 200: return res.json()["choices"][0]["message"]["content"]
                     else: raise Exception(f"OpenRouter Error: {res.text}")
@@ -42,7 +44,8 @@ class LLMFactory:
                     res = requests.post(
                         f"https://api-inference.huggingface.co/models/{model}/v1/chat/completions",
                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                        json={"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.2, "max_tokens": 1000}
+                        # CHANGED: temperature: 0.0
+                        json={"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.0, "max_tokens": 1000}
                     )
                     if res.status_code == 200: return res.json()["choices"][0]["message"]["content"]
                     else: raise Exception(f"HuggingFace Error: {res.text}")
@@ -51,12 +54,13 @@ class LLMFactory:
                     res = requests.post(
                         "https://api.cohere.com/v1/chat",
                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                        json={"model": model, "message": prompt, "preamble": system_instruction, "temperature": 0.2}
+                        # CHANGED: temperature: 0.0
+                        json={"model": model, "message": prompt, "preamble": system_instruction, "temperature": 0.0}
                     )
                     if res.status_code == 200: return res.json()["text"]
                     else: raise Exception(f"Cohere Error: {res.text}")
                         
-           # ... [keep the top part of the file the same] ...
+            # ... [keep the bottom part of the file the same] ...
                         
             except Exception as e:
                 # Print the exact error so we know WHY it failed

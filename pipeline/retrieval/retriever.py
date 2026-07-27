@@ -21,10 +21,10 @@ class RAGPipeline:
         return results
 
     def answer_query(self, query: str) -> dict:
-        """Retrieves context, selects the correct model/prompt, and generates an answer."""
+        """Retrieves context and extracts exact verbatim answers citing page numbers."""
         
         # 1. Retrieve the relevant chunks from ChromaDB
-        docs = self.vector_db.similarity_search(query, k=4)
+        docs = self.vector_db.similarity_search(query, k=10)
         
         if not docs:
             return {
@@ -32,35 +32,34 @@ class RAGPipeline:
                 "sources": []
             }
             
-        # 2. Format the context and extract sources
+        # 2. Format the context (Injecting page numbers for the LLM) and extract sources
         context = ""
         sources = []
         for doc in docs:
-            context += f"{doc.page_content}\n\n"
             meta = doc.metadata
             book_type = meta.get("book_type", "Unknown")
             chapter = meta.get("chapter", "Unknown")
             page = meta.get("page_number", "Unknown")
+            
+            # CRITICAL: Show the page number to the LLM so it can cite it
+            context += f"--- Page {page} ---\n{doc.page_content}\n\n"
+            
             sources.append(f"[{book_type} | {chapter} | Page: {page}]")
             
         # Remove duplicate sources cleanly
         sources = list(dict.fromkeys(sources))
         
-        # 3. Analyze the task to get the dynamic prompt and model
-        task_info = model_selector.analyze_task(query)
-        system_instruction = task_info["system_prompt"]
+        # 3. Use the centralized prompt builder from prompts.py
+        system_instruction, final_prompt = build_qa_prompt(query, context)
         
-        # 4. Build the final prompt for the LLM
-        final_prompt = f"Context:\n{context}\n\nUser Question:\n{query}"
-        
-        # 5. Generate the response
+        # 4. Generate the response
         answer = LLMFactory.generate_response(
             prompt=final_prompt, 
             system_instruction=system_instruction
         )
         
         return {
-            "answer": answer,
+            "answer": answer.strip(),
             "sources": sources
         }
 
