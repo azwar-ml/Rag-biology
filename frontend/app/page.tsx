@@ -4,6 +4,14 @@ import { useState } from "react";
 import { Send, Bot, User, BookOpen } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 
+// 1. Create a custom URL transformer to allow Base64 data URIs
+const customUrlTransform = (url: string) => {
+  if (url.startsWith("data:image/")) {
+    return url; // Allow our Base64 images
+  }
+  return url; // Allow standard links
+};
+
 export default function Home() {
   const [query, setQuery] = useState("");
   const [messages, setMessages] = useState<
@@ -91,7 +99,21 @@ export default function Home() {
                   {/* Markdown Renderer for AI output */}
                   {msg.role === "bot" ? (
                     <div className="prose prose-invert max-w-none">
-                      <ReactMarkdown>{msg.text}</ReactMarkdown>
+                      {/* 2. Apply the URL transformer and custom image styling */}
+                      <ReactMarkdown 
+                        urlTransform={customUrlTransform}
+                        components={{
+                          img: ({node, ...props}) => (
+                            <img 
+                              {...props} 
+                              className="max-w-full h-auto rounded-lg my-2 border border-gray-700 shadow-sm" 
+                              alt={props.alt || "Requested figure"}
+                            />
+                          )
+                        }}
+                      >
+                        {msg.text}
+                      </ReactMarkdown>
                     </div>
                   ) : (
                     <p>{msg.text}</p>
@@ -105,7 +127,7 @@ export default function Home() {
                       </p>
                       <ul className="space-y-1">
                         {msg.sources.map((src, i) => (
-                          <li key={i} className="text-xs text-gray-400">
+                          <li key={i} className="text-xs text-gray-400 break-words">
                             {src}
                           </li>
                         ))}

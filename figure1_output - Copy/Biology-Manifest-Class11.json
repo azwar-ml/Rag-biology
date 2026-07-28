@@ -1,0 +1,2378 @@
+[
+  {
+    "page": 1,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.1: Evolutionary tree of the three domains",
+    "image": "figure1_output/chapter_1/figures/fig_1_1.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Evolutionary tree of the three domains"
+  },
+  {
+    "page": 2,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.2: Difference in membrane lipids of Archaea and other organisms",
+    "image": "figure1_output/chapter_1/figures/fig_1_2.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Difference in membrane lipids of Archaea and other organisms"
+  },
+  {
+    "page": 3,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.3: Major groups of Archaea",
+    "image": "figure1_output/chapter_1/figures/fig_1_3.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Major groups of Archaea"
+  },
+  {
+    "page": 4,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.4: Different forms of Bacteria",
+    "image": "figure1_output/chapter_1/figures/fig_1_4.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Different forms of Bacteria"
+  },
+  {
+    "page": 6,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.5: Taxonomic hierarchy",
+    "image": "figure1_output/chapter_1/figures/fig_1_5.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Taxonomic hierarchy"
+  },
+  {
+    "page": 7,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.6: Common protists",
+    "image": "figure1_output/chapter_1/figures/fig_1_6.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Common protists"
+  },
+  {
+    "page": 8,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.7: ** Common fungi",
+    "image": "figure1_output/chapter_1/figures/fig_1_7.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "** Common fungi"
+  },
+  {
+    "page": 9,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.8: major groups of Kingdom Plantae",
+    "image": "figure1_output/chapter_1/figures/fig_1_8.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "major groups of Kingdom Plantae"
+  },
+  {
+    "page": 11,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.9: Representative sponges and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_9.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative sponges and general structure"
+  },
+  {
+    "page": 12,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.10: Representative cnidarians",
+    "image": "figure1_output/chapter_1/figures/fig_1_10.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative cnidarians"
+  },
+  {
+    "page": 13,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.11: Representative flat worms",
+    "image": "figure1_output/chapter_1/figures/fig_1_11.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative flat worms"
+  },
+  {
+    "page": 13,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.12: Representative round worms and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_12.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative round worms and general structure"
+  },
+  {
+    "page": 14,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.13: Representative molluscs and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_13.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative molluscs and general structure"
+  },
+  {
+    "page": 15,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.14: Representative annelids and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_14.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative annelids and general structure"
+  },
+  {
+    "page": 17,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.15: Representative arthropods and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_15.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative arthropods and general structure"
+  },
+  {
+    "page": 18,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.16: Representative echinoderms and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_16.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative echinoderms and general structure"
+  },
+  {
+    "page": 19,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.17: Diagnostic characters of chordates",
+    "image": "figure1_output/chapter_1/figures/fig_1_17.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Diagnostic characters of chordates"
+  },
+  {
+    "page": 19,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.18: Sea squirts",
+    "image": "figure1_output/chapter_1/figures/fig_1_18.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Sea squirts"
+  },
+  {
+    "page": 19,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.19: Amphioxus",
+    "image": "figure1_output/chapter_1/figures/fig_1_19.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Amphioxus"
+  },
+  {
+    "page": 20,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.20: ** Representative fishes and general structure",
+    "image": "figure1_output/chapter_1/figures/fig_1_20.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "** Representative fishes and general structure"
+  },
+  {
+    "page": 21,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.21: Representative amphibians",
+    "image": "figure1_output/chapter_1/figures/fig_1_21.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative amphibians"
+  },
+  {
+    "page": 22,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.22: Amniotic egg",
+    "image": "figure1_output/chapter_1/figures/fig_1_22.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Amniotic egg"
+  },
+  {
+    "page": 22,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.23: Representative reptiles",
+    "image": "figure1_output/chapter_1/figures/fig_1_23.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative reptiles"
+  },
+  {
+    "page": 23,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.24: Representative birds",
+    "image": "figure1_output/chapter_1/figures/fig_1_24.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative birds"
+  },
+  {
+    "page": 24,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.25: Representative egg-laying mammals",
+    "image": "figure1_output/chapter_1/figures/fig_1_25.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative egg-laying mammals"
+  },
+  {
+    "page": 24,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.26: Representative pouched mammals",
+    "image": "figure1_output/chapter_1/figures/fig_1_26.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative pouched mammals"
+  },
+  {
+    "page": 25,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.27: Representative eutherians",
+    "image": "figure1_output/chapter_1/figures/fig_1_27.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Representative eutherians"
+  },
+  {
+    "page": 26,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.28: Basic shapes of viruses",
+    "image": "figure1_output/chapter_1/figures/fig_1_28.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Basic shapes of viruses"
+  },
+  {
+    "page": 28,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.29: Methods to assess distribution of organisms**",
+    "image": "figure1_output/chapter_1/figures/fig_1_29.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Methods to assess distribution of organisms**"
+  },
+  {
+    "page": 30,
+    "chapter": 1,
+    "type": "figure",
+    "caption": "FIGURE 1.30: Modes of speciation",
+    "image": "figure1_output/chapter_1/figures/fig_1_30.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION",
+    "caption_detailed": "Modes of speciation"
+  },
+  {
+    "page": 10,
+    "chapter": 1,
+    "type": "table",
+    "caption": "TABLE:kingdoms three domains",
+    "image": "figure1_output/chapter_1/tables/table_1_unnumbered_1.png",
+    "chapter_name": "BIODIVERSITY & CLASSIFICATION"
+  },
+  {
+    "page": 34,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.1: Structure of a generalized bacterium",
+    "image": "figure1_output/chapter_2/figures/fig_2_1.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "Structure of a generalized bacterium"
+  },
+  {
+    "page": 34,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.2: The molecular model of peptidoglycan",
+    "image": "figure1_output/chapter_2/figures/fig_2_2.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "The molecular model of peptidoglycan"
+  },
+  {
+    "page": 35,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.3: Cell wall composition of Gram-positive and Gram-negative bacteria",
+    "image": "figure1_output/chapter_2/figures/fig_2_3.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "Cell wall composition of Gram-positive and Gram-negative bacteria"
+  },
+  {
+    "page": 36,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.4: ** Process of endospore formation (sporulation) in bacteria",
+    "image": "figure1_output/chapter_2/figures/fig_2_4.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "** Process of endospore formation (sporulation) in bacteria"
+  },
+  {
+    "page": 37,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.5: ** Motility in bacteria",
+    "image": "figure1_output/chapter_2/figures/fig_2_5.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "** Motility in bacteria"
+  },
+  {
+    "page": 37,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.6: ** Axial filament in a spirochete",
+    "image": "figure1_output/chapter_2/figures/fig_2_6.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "** Axial filament in a spirochete"
+  },
+  {
+    "page": 38,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.7: ** The different arrangements of bacterial flagella",
+    "image": "figure1_output/chapter_2/figures/fig_2_7.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "** The different arrangements of bacterial flagella"
+  },
+  {
+    "page": 38,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.8: Major groups of bacteria",
+    "image": "figure1_output/chapter_2/figures/fig_2_8.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "Major groups of bacteria"
+  },
+  {
+    "page": 40,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.9",
+    "image": "figure1_output/chapter_2/figures/fig_2_9.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 43,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.10: Diversity in viruses' shapes",
+    "image": "figure1_output/chapter_2/figures/fig_2_10.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "Diversity in viruses' shapes"
+  },
+  {
+    "page": 44,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.11: Structure of a bacteriophage (T4 phage)",
+    "image": "figure1_output/chapter_2/figures/fig_2_11.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "Structure of a bacteriophage (T4 phage)"
+  },
+  {
+    "page": 45,
+    "chapter": 2,
+    "type": "figure",
+    "caption": "FIGURE 2.12: Structure of HIV",
+    "image": "figure1_output/chapter_2/figures/fig_2_12.png",
+    "chapter_name": "BACTERIA AND VIRUSES",
+    "caption_detailed": "Structure of HIV"
+  },
+  {
+    "page": 40,
+    "chapter": 2,
+    "type": "table",
+    "caption": "TABLE:groups of bacteria",
+    "image": "figure1_output/chapter_2/tables/table_2_unnumbered_1.png",
+    "chapter_name": "BACTERIA AND VIRUSES"
+  },
+  {
+    "page": 49,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.1: Robert Hooke's microscope and observation",
+    "image": "figure1_output/chapter_3/figures/fig_3_1.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Robert Hooke's microscope and observation"
+  },
+  {
+    "page": 52,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.2: (a) Major parts of light microscope; (b) Working Principle of Light Microscope",
+    "image": "figure1_output/chapter_3/figures/fig_3_2.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "(a) Major parts of light microscope; (b) Working Principle of Light Microscope"
+  },
+  {
+    "page": 53,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.3: Electron microscope",
+    "image": "figure1_output/chapter_3/figures/fig_3_3.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Electron microscope"
+  },
+  {
+    "page": 53,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.4: Working principle of; (a) Scanning electron microscope; (b) Transmission electron microscope",
+    "image": "figure1_output/chapter_3/figures/fig_3_4.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Working principle of; (a) Scanning electron microscope; (b) Transmission electron microscope"
+  },
+  {
+    "page": 54,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.5",
+    "image": "figure1_output/chapter_3/figures/fig_3_5.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 55,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.6: The cell walls of two neighbouring cells showing a plasmodesma",
+    "image": "figure1_output/chapter_3/figures/fig_3_6.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "The cell walls of two neighbouring cells showing a plasmodesma"
+  },
+  {
+    "page": 56,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.7: Structural components of plasma membrane",
+    "image": "figure1_output/chapter_3/figures/fig_3_7.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structural components of plasma membrane"
+  },
+  {
+    "page": 57,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.8: Major types of plasma membrane proteins",
+    "image": "figure1_output/chapter_3/figures/fig_3_8.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Major types of plasma membrane proteins"
+  },
+  {
+    "page": 59,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.9: The Ultra-structure of a Plant cell",
+    "image": "figure1_output/chapter_3/figures/fig_3_9.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "The Ultra-structure of a Plant cell"
+  },
+  {
+    "page": 60,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.10: The Ultra-structure of an Animal cell",
+    "image": "figure1_output/chapter_3/figures/fig_3_10.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "The Ultra-structure of an Animal cell"
+  },
+  {
+    "page": 60,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.11: The structure of nucleus",
+    "image": "figure1_output/chapter_3/figures/fig_3_11.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "The structure of nucleus"
+  },
+  {
+    "page": 61,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.12: The structure of nuclear envelope and nucleopore complex",
+    "image": "figure1_output/chapter_3/figures/fig_3_12.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "The structure of nuclear envelope and nucleopore complex"
+  },
+  {
+    "page": 62,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.13: ** The nucleolus within a nucleus",
+    "image": "figure1_output/chapter_3/figures/fig_3_13.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "** The nucleolus within a nucleus"
+  },
+  {
+    "page": 62,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.14: ** Condensation of chromatin to form a chromosome",
+    "image": "figure1_output/chapter_3/figures/fig_3_14.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "** Condensation of chromatin to form a chromosome"
+  },
+  {
+    "page": 63,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.15: The functioning of rough endoplasmic reticulum",
+    "image": "figure1_output/chapter_3/figures/fig_3_15.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "The functioning of rough endoplasmic reticulum"
+  },
+  {
+    "page": 64,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.16",
+    "image": "figure1_output/chapter_3/figures/fig_3_16.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 63,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.17: ** A fluorescence image of an endothelial cell showing ER (green)",
+    "image": "figure1_output/chapter_3/figures/fig_3_17.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "** A fluorescence image of an endothelial cell showing ER (green)"
+  },
+  {
+    "page": 65,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.18: Structure of a mitochondrion",
+    "image": "figure1_output/chapter_3/figures/fig_3_18.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of a mitochondrion"
+  },
+  {
+    "page": 66,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.19",
+    "image": "figure1_output/chapter_3/figures/fig_3_19.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 67,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.20: Structure of chloroplast",
+    "image": "figure1_output/chapter_3/figures/fig_3_20.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of chloroplast"
+  },
+  {
+    "page": 69,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.21: Structure of Golgi apparatus and its functioning",
+    "image": "figure1_output/chapter_3/figures/fig_3_21.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of Golgi apparatus and its functioning"
+  },
+  {
+    "page": 70,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.22: Structure of lysosome",
+    "image": "figure1_output/chapter_3/figures/fig_3_22.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of lysosome"
+  },
+  {
+    "page": 70,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.23: Role of lysosome in the breakdown of phagocytosed particle and cellular component",
+    "image": "figure1_output/chapter_3/figures/fig_3_23.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Role of lysosome in the breakdown of phagocytosed particle and cellular component"
+  },
+  {
+    "page": 71,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.24: Structure of peroxisomes",
+    "image": "figure1_output/chapter_3/figures/fig_3_24.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of peroxisomes"
+  },
+  {
+    "page": 72,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.25: Structure of vacuole in plant cell",
+    "image": "figure1_output/chapter_3/figures/fig_3_25.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of vacuole in plant cell"
+  },
+  {
+    "page": 73,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.26: Two centrioles",
+    "image": "figure1_output/chapter_3/figures/fig_3_26.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Two centrioles"
+  },
+  {
+    "page": 74,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.27: Components of cytoskeleton",
+    "image": "figure1_output/chapter_3/figures/fig_3_27.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Components of cytoskeleton"
+  },
+  {
+    "page": 74,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.28: Structure of eukaryotic cilium and flagellum",
+    "image": "figure1_output/chapter_3/figures/fig_3_28.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of eukaryotic cilium and flagellum"
+  },
+  {
+    "page": 75,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.29: Structure of a generalized prokaryotic cell",
+    "image": "figure1_output/chapter_3/figures/fig_3_29.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Structure of a generalized prokaryotic cell"
+  },
+  {
+    "page": 77,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.30: Difference between the structures of prokaryotic and eukaryotic flagella",
+    "image": "figure1_output/chapter_3/figures/fig_3_30.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Difference between the structures of prokaryotic and eukaryotic flagella"
+  },
+  {
+    "page": 78,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.31: Steps of cell signalling**",
+    "image": "figure1_output/chapter_3/figures/fig_3_31.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Steps of cell signalling**"
+  },
+  {
+    "page": 78,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.32: Protein/peptide signalling pathway**",
+    "image": "figure1_output/chapter_3/figures/fig_3_32.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Protein/peptide signalling pathway**"
+  },
+  {
+    "page": 79,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.33: Steroid signalling pathway",
+    "image": "figure1_output/chapter_3/figures/fig_3_33.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Steroid signalling pathway"
+  },
+  {
+    "page": 80,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.34: Diffusion of two types of molecules",
+    "image": "figure1_output/chapter_3/figures/fig_3_34.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Diffusion of two types of molecules"
+  },
+  {
+    "page": 80,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.35: Facilitated diffusion",
+    "image": "figure1_output/chapter_3/figures/fig_3_35.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Facilitated diffusion"
+  },
+  {
+    "page": 82,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.36: Osmosis at molecular level**",
+    "image": "figure1_output/chapter_3/figures/fig_3_36.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "Osmosis at molecular level**"
+  },
+  {
+    "page": 83,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.37",
+    "image": "figure1_output/chapter_3/figures/fig_3_37.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 84,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.38: ** Stem cells - Sources and types",
+    "image": "figure1_output/chapter_3/figures/fig_3_38.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": "** Stem cells - Sources and types"
+  },
+  {
+    "page": 86,
+    "chapter": 3,
+    "type": "figure",
+    "caption": "FIGURE 3.39",
+    "image": "figure1_output/chapter_3/figures/fig_3_39.png",
+    "chapter_name": "CELLS AND SUBCELLULAR ORGANELLES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 93,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.1: Covalent bond between two atoms",
+    "image": "figure1_output/chapter_4/figures/fig_4_1.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Covalent bond between two atoms"
+  },
+  {
+    "page": 93,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.2: Ionic bond between sodium and chlorine atoms",
+    "image": "figure1_output/chapter_4/figures/fig_4_2.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Ionic bond between sodium and chlorine atoms"
+  },
+  {
+    "page": 94,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.3: Hydrogen bond between water molecules",
+    "image": "figure1_output/chapter_4/figures/fig_4_3.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Hydrogen bond between water molecules"
+  },
+  {
+    "page": 94,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.4: Making of macromolecules (Dehydration synthesis)",
+    "image": "figure1_output/chapter_4/figures/fig_4_4.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Making of macromolecules (Dehydration synthesis)"
+  },
+  {
+    "page": 95,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.5: Breaking of macromolecules (Hydrolysis)",
+    "image": "figure1_output/chapter_4/figures/fig_4_5.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Breaking of macromolecules (Hydrolysis)"
+  },
+  {
+    "page": 96,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.6: Hydrogen bonds among water molecules",
+    "image": "figure1_output/chapter_4/figures/fig_4_6.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Hydrogen bonds among water molecules"
+  },
+  {
+    "page": 96,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.7: Water as a solvent of inorganic molecules (NaCl)",
+    "image": "figure1_output/chapter_4/figures/fig_4_7.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Water as a solvent of inorganic molecules (NaCl)"
+  },
+  {
+    "page": 97,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.8: Water as a solvent of organic molecules (glucose)",
+    "image": "figure1_output/chapter_4/figures/fig_4_8.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Water as a solvent of organic molecules (glucose)"
+  },
+  {
+    "page": 97,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.9: Hydrophobic association of oil (lipid) with water molecules",
+    "image": "figure1_output/chapter_4/figures/fig_4_9.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Hydrophobic association of oil (lipid) with water molecules"
+  },
+  {
+    "page": 98,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.10: A water strider walking on the surface of water",
+    "image": "figure1_output/chapter_4/figures/fig_4_10.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "A water strider walking on the surface of water"
+  },
+  {
+    "page": 99,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.11: Ionization of water",
+    "image": "figure1_output/chapter_4/figures/fig_4_11.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Ionization of water"
+  },
+  {
+    "page": 101,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.12: Structural and stereoisomers of glucose",
+    "image": "figure1_output/chapter_4/figures/fig_4_12.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Structural and stereoisomers of glucose"
+  },
+  {
+    "page": 101,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.13: Structure of Ribose",
+    "image": "figure1_output/chapter_4/figures/fig_4_13.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Structure of Ribose"
+  },
+  {
+    "page": 102,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.14: Ring structures of glucose, galactose, fructose, and ribose",
+    "image": "figure1_output/chapter_4/figures/fig_4_14.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Ring structures of glucose, galactose, fructose, and ribose"
+  },
+  {
+    "page": 103,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.15: Dehydration synthesis of one maltose by the condensation of two glucose",
+    "image": "figure1_output/chapter_4/figures/fig_4_15.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Dehydration synthesis of one maltose by the condensation of two glucose"
+  },
+  {
+    "page": 104,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.16: Structure of lactose**",
+    "image": "figure1_output/chapter_4/figures/fig_4_16.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Structure of lactose**"
+  },
+  {
+    "page": 104,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.17: Structure of sucrose**",
+    "image": "figure1_output/chapter_4/figures/fig_4_17.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Structure of sucrose**"
+  },
+  {
+    "page": 105,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.18: (a) Amylose, (b) Amylopectin",
+    "image": "figure1_output/chapter_4/figures/fig_4_18.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "(a) Amylose, (b) Amylopectin"
+  },
+  {
+    "page": 105,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.19: Glycogen",
+    "image": "figure1_output/chapter_4/figures/fig_4_19.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Glycogen"
+  },
+  {
+    "page": 106,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.20: Difference between starch and cellulose",
+    "image": "figure1_output/chapter_4/figures/fig_4_20.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Difference between starch and cellulose"
+  },
+  {
+    "page": 106,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.21: Cellulose fibril in plant cell wall",
+    "image": "figure1_output/chapter_4/figures/fig_4_21.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Cellulose fibril in plant cell wall"
+  },
+  {
+    "page": 107,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.22: A part of the chitin molecule](image_of_chitin_molecule.png)",
+    "image": "figure1_output/chapter_4/figures/fig_4_22.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "A part of the chitin molecule](image_of_chitin_molecule.png)"
+  },
+  {
+    "page": 108,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.23: Structure of an amino acid",
+    "image": "figure1_output/chapter_4/figures/fig_4_23.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Structure of an amino acid"
+  },
+  {
+    "page": 108,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.24: General structures of glycine and alanine",
+    "image": "figure1_output/chapter_4/figures/fig_4_24.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "General structures of glycine and alanine"
+  },
+  {
+    "page": 109,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.25: Formation of peptide bond between glycine and alanine",
+    "image": "figure1_output/chapter_4/figures/fig_4_25.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Formation of peptide bond between glycine and alanine"
+  },
+  {
+    "page": 109,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.26: Section from a polypeptide chain",
+    "image": "figure1_output/chapter_4/figures/fig_4_26.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Section from a polypeptide chain"
+  },
+  {
+    "page": 110,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.27: Chains of Insulin",
+    "image": "figure1_output/chapter_4/figures/fig_4_27.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Chains of Insulin"
+  },
+  {
+    "page": 110,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.28: Difference in amino acid sequence in normal and sickle cell haemoglobin",
+    "image": "figure1_output/chapter_4/figures/fig_4_28.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Difference in amino acid sequence in normal and sickle cell haemoglobin"
+  },
+  {
+    "page": 111,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.29: Levels of protein structure",
+    "image": "figure1_output/chapter_4/figures/fig_4_29.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Levels of protein structure"
+  },
+  {
+    "page": 113,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.30: (a) Collagen – a fibrous protein,",
+    "image": "figure1_output/chapter_4/figures/fig_4_30.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "(a) Collagen – a fibrous protein,"
+  },
+  {
+    "page": 113,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.31: Different proteins of human body",
+    "image": "figure1_output/chapter_4/figures/fig_4_31.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Different proteins of human body"
+  },
+  {
+    "page": 115,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.32",
+    "image": "figure1_output/chapter_4/figures/fig_4_32.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 116,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.33: Dehydration synthesis of a triacylglycerol",
+    "image": "figure1_output/chapter_4/figures/fig_4_33.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Dehydration synthesis of a triacylglycerol"
+  },
+  {
+    "page": 116,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.34: Some uses of waxes",
+    "image": "figure1_output/chapter_4/figures/fig_4_34.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Some uses of waxes"
+  },
+  {
+    "page": 117,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.35: Phosphatidyl choline—a phospholipid](image)",
+    "image": "figure1_output/chapter_4/figures/fig_4_35.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Phosphatidyl choline—a phospholipid](image)"
+  },
+  {
+    "page": 118,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.36",
+    "image": "figure1_output/chapter_4/figures/fig_4_36.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 118,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.37: Cholesterol: a steroid",
+    "image": "figure1_output/chapter_4/figures/fig_4_37.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Cholesterol: a steroid"
+  },
+  {
+    "page": 118,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.38: A prostaglandin",
+    "image": "figure1_output/chapter_4/figures/fig_4_38.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "A prostaglandin"
+  },
+  {
+    "page": 119,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.39: Components of nucleic acids",
+    "image": "figure1_output/chapter_4/figures/fig_4_39.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Components of nucleic acids"
+  },
+  {
+    "page": 120,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.40: ** Sugar-phosphate backbone of nucleic acids",
+    "image": "figure1_output/chapter_4/figures/fig_4_40.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "** Sugar-phosphate backbone of nucleic acids"
+  },
+  {
+    "page": 120,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.41: ** Nucleotides of RNA and DNA",
+    "image": "figure1_output/chapter_4/figures/fig_4_41.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "** Nucleotides of RNA and DNA"
+  },
+  {
+    "page": 121,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.42: A dinucleotide",
+    "image": "figure1_output/chapter_4/figures/fig_4_42.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "A dinucleotide"
+  },
+  {
+    "page": 121,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.43: ATPand NAD",
+    "image": "figure1_output/chapter_4/figures/fig_4_43.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "ATPand NAD"
+  },
+  {
+    "page": 122,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.44: (a) Watson and Crick model of DNA, (b) The detailed structure of DNA",
+    "image": "figure1_output/chapter_4/figures/fig_4_44.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "(a) Watson and Crick model of DNA, (b) The detailed structure of DNA"
+  },
+  {
+    "page": 124,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.45: A model of RNA structure",
+    "image": "figure1_output/chapter_4/figures/fig_4_45.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "A model of RNA structure"
+  },
+  {
+    "page": 124,
+    "chapter": 4,
+    "type": "figure",
+    "caption": "FIGURE 4.46: Flow sheet of Central dogma**",
+    "image": "figure1_output/chapter_4/figures/fig_4_46.png",
+    "chapter_name": "BIOMOLECULES",
+    "caption_detailed": "Flow sheet of Central dogma**"
+  },
+  {
+    "page": 92,
+    "chapter": 4,
+    "type": "table",
+    "caption": "TABLE 4.1",
+    "image": "figure1_output/chapter_4/tables/table_4_1.png",
+    "chapter_name": "BIOMOLECULES"
+  },
+  {
+    "page": 99,
+    "chapter": 4,
+    "type": "table",
+    "caption": "TABLE 4.2",
+    "image": "figure1_output/chapter_4/tables/table_4_2.png",
+    "chapter_name": "BIOMOLECULES"
+  },
+  {
+    "page": 100,
+    "chapter": 4,
+    "type": "table",
+    "caption": "TABLE 4.3",
+    "image": "figure1_output/chapter_4/tables/table_4_3.png",
+    "chapter_name": "BIOMOLECULES"
+  },
+  {
+    "page": 112,
+    "chapter": 4,
+    "type": "table",
+    "caption": "TABLE 4.4",
+    "image": "figure1_output/chapter_4/tables/table_4_4.png",
+    "chapter_name": "BIOMOLECULES"
+  },
+  {
+    "page": 128,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.1: ** Cofactor, changing the shape of active site",
+    "image": "figure1_output/chapter_5/figures/fig_5_1.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "** Cofactor, changing the shape of active site"
+  },
+  {
+    "page": 129,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.2: Enzymes lower the activation energy",
+    "image": "figure1_output/chapter_5/figures/fig_5_2.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Enzymes lower the activation energy"
+  },
+  {
+    "page": 130,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.3: Lock-and-key model of enzyme action",
+    "image": "figure1_output/chapter_5/figures/fig_5_3.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Lock-and-key model of enzyme action"
+  },
+  {
+    "page": 131,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.4: Induced-fit model of enzyme action",
+    "image": "figure1_output/chapter_5/figures/fig_5_4.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Induced-fit model of enzyme action"
+  },
+  {
+    "page": 131,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.5: Effect of temperature on enzyme activity",
+    "image": "figure1_output/chapter_5/figures/fig_5_5.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Effect of temperature on enzyme activity"
+  },
+  {
+    "page": 132,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.6",
+    "image": "figure1_output/chapter_5/figures/fig_5_6.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": ""
+  },
+  {
+    "page": 133,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.7: Effect of enzyme concentration on enzyme activity",
+    "image": "figure1_output/chapter_5/figures/fig_5_7.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Effect of enzyme concentration on enzyme activity"
+  },
+  {
+    "page": 133,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.8: Effect of substrate concentration on enzyme activity",
+    "image": "figure1_output/chapter_5/figures/fig_5_8.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Effect of substrate concentration on enzyme activity"
+  },
+  {
+    "page": 134,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.9: Competitive inhibition of an enzyme**",
+    "image": "figure1_output/chapter_5/figures/fig_5_9.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Competitive inhibition of an enzyme**"
+  },
+  {
+    "page": 134,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.10: Non-competitive inhibition of an enzyme**",
+    "image": "figure1_output/chapter_5/figures/fig_5_10.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Non-competitive inhibition of an enzyme**"
+  },
+  {
+    "page": 136,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.11: Feedback inhibition of enzyme action",
+    "image": "figure1_output/chapter_5/figures/fig_5_11.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Feedback inhibition of enzyme action"
+  },
+  {
+    "page": 137,
+    "chapter": 5,
+    "type": "figure",
+    "caption": "FIGURE 5.12: Enzyme classification on the basis of reactions",
+    "image": "figure1_output/chapter_5/figures/fig_5_12.png",
+    "chapter_name": "ENZYMES",
+    "caption_detailed": "Enzyme classification on the basis of reactions"
+  },
+  {
+    "page": 132,
+    "chapter": 5,
+    "type": "table",
+    "caption": "TABLE:optimum ph human enzymes",
+    "image": "figure1_output/chapter_5/tables/table_5_unnumbered_1.png",
+    "chapter_name": "ENZYMES"
+  },
+  {
+    "page": 141,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.1",
+    "image": "figure1_output/chapter_6/figures/fig_6_1.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": ""
+  },
+  {
+    "page": 142,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.2: ATP-ADP Cycle",
+    "image": "figure1_output/chapter_6/figures/fig_6_2.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "ATP-ADP Cycle"
+  },
+  {
+    "page": 143,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.3: Experiment to prove that water is the source of oxygen released in photosynthesis",
+    "image": "figure1_output/chapter_6/figures/fig_6_3.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Experiment to prove that water is the source of oxygen released in photosynthesis"
+  },
+  {
+    "page": 145,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.4: Molecular structure of chlorophyll a and chlorophyll b",
+    "image": "figure1_output/chapter_6/figures/fig_6_4.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Molecular structure of chlorophyll a and chlorophyll b"
+  },
+  {
+    "page": 146,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.5: Structure of a leaf showing cuticle, epidermis, palisade mesophyll, spongy mesophyll, guard cells and stoma.",
+    "image": "figure1_output/chapter_6/figures/fig_6_5.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Structure of a leaf showing cuticle, epidermis, palisade mesophyll, spongy mesophyll, guard cells and stoma."
+  },
+  {
+    "page": 146,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.6: Structure of Chloroplast",
+    "image": "figure1_output/chapter_6/figures/fig_6_6.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Structure of Chloroplast"
+  },
+  {
+    "page": 147,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.7: Photosystem",
+    "image": "figure1_output/chapter_6/figures/fig_6_7.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Photosystem"
+  },
+  {
+    "page": 147,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.8: Overview of photosynthesis",
+    "image": "figure1_output/chapter_6/figures/fig_6_8.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Overview of photosynthesis"
+  },
+  {
+    "page": 149,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.9: Light-dependent reactions (noncyclic photophosphorylation)",
+    "image": "figure1_output/chapter_6/figures/fig_6_9.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Light-dependent reactions (noncyclic photophosphorylation)"
+  },
+  {
+    "page": 150,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.10: Cyclic Photophosphorylation",
+    "image": "figure1_output/chapter_6/figures/fig_6_10.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Cyclic Photophosphorylation"
+  },
+  {
+    "page": 150,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.11: Electron transport chain and chemiosmosis in chloroplast",
+    "image": "figure1_output/chapter_6/figures/fig_6_11.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Electron transport chain and chemiosmosis in chloroplast"
+  },
+  {
+    "page": 151,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.12: The Calvin cycle",
+    "image": "figure1_output/chapter_6/figures/fig_6_12.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "The Calvin cycle"
+  },
+  {
+    "page": 153,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.13: Alcoholic fermentation and lactic acid fermentation",
+    "image": "figure1_output/chapter_6/figures/fig_6_13.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Alcoholic fermentation and lactic acid fermentation"
+  },
+  {
+    "page": 154,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.14",
+    "image": "figure1_output/chapter_6/figures/fig_6_14.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": ""
+  },
+  {
+    "page": 155,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.15",
+    "image": "figure1_output/chapter_6/figures/fig_6_15.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": ""
+  },
+  {
+    "page": 156,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.16: Pyruvic acid oxidation",
+    "image": "figure1_output/chapter_6/figures/fig_6_16.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Pyruvic acid oxidation"
+  },
+  {
+    "page": 157,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.17: Krebs cycle",
+    "image": "figure1_output/chapter_6/figures/fig_6_17.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Krebs cycle"
+  },
+  {
+    "page": 158,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.18: Pathway of electrons",
+    "image": "figure1_output/chapter_6/figures/fig_6_18.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Pathway of electrons"
+  },
+  {
+    "page": 159,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.19: Electron transport chain and chemiosmosis in mitochondrion](",
+    "image": "figure1_output/chapter_6/figures/fig_6_19.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Electron transport chain and chemiosmosis in mitochondrion]("
+  },
+  {
+    "page": 160,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.20: An overview of the energy extracted from the aerobic oxidation of glucose",
+    "image": "figure1_output/chapter_6/figures/fig_6_20.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "An overview of the energy extracted from the aerobic oxidation of glucose"
+  },
+  {
+    "page": 162,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.21: Reactions of photorespiration",
+    "image": "figure1_output/chapter_6/figures/fig_6_21.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "Reactions of photorespiration"
+  },
+  {
+    "page": 163,
+    "chapter": 6,
+    "type": "figure",
+    "caption": "FIGURE 6.22: C-3 photosynthesis and C-4 photosynthesis",
+    "image": "figure1_output/chapter_6/figures/fig_6_22.png",
+    "chapter_name": "BIOENERGETICS",
+    "caption_detailed": "C-3 photosynthesis and C-4 photosynthesis"
+  },
+  {
+    "page": 168,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.1: (a) 3D structure of HIV-1 reverse transcriptase (b) 3D structure of serine protease",
+    "image": "figure1_output/chapter_7/figures/fig_7_1.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": "(a) 3D structure of HIV-1 reverse transcriptase (b) 3D structure of serine protease"
+  },
+  {
+    "page": 169,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.2: Mechanism of corona virus binding with receptorof human cell",
+    "image": "figure1_output/chapter_7/figures/fig_7_2.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": "Mechanism of corona virus binding with receptorof human cell"
+  },
+  {
+    "page": 170,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.3: Schematic representation of X-ray crystallography",
+    "image": "figure1_output/chapter_7/figures/fig_7_3.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": "Schematic representation of X-ray crystallography"
+  },
+  {
+    "page": 171,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.4: Screenshot of GenBank database",
+    "image": "figure1_output/chapter_7/figures/fig_7_4.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": "Screenshot of GenBank database"
+  },
+  {
+    "page": 172,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.5: Screenshot of protein databank",
+    "image": "figure1_output/chapter_7/figures/fig_7_5.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": "Screenshot of protein databank"
+  },
+  {
+    "page": 173,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.6",
+    "image": "figure1_output/chapter_7/figures/fig_7_6.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": ""
+  },
+  {
+    "page": 174,
+    "chapter": 7,
+    "type": "figure",
+    "caption": "FIGURE 7.7: Structural homology of protein",
+    "image": "figure1_output/chapter_7/figures/fig_7_7.png",
+    "chapter_name": "STRUCTURAL AND COMPUTATIONAL BIOLOGY",
+    "caption_detailed": "Structural homology of protein"
+  },
+  {
+    "page": 179,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.1: Pitcher plant, Insects are entrapped within the leaf.",
+    "image": "figure1_output/chapter_8/figures/fig_8_1.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Pitcher plant, Insects are entrapped within the leaf."
+  },
+  {
+    "page": 180,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.2: Venus-fly trap, prey is trapped between the lobes of a leaf.",
+    "image": "figure1_output/chapter_8/figures/fig_8_2.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Venus-fly trap, prey is trapped between the lobes of a leaf."
+  },
+  {
+    "page": 180,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.3: Sundew, insects are entangled by the tentacles.",
+    "image": "figure1_output/chapter_8/figures/fig_8_3.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Sundew, insects are entangled by the tentacles."
+  },
+  {
+    "page": 180,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.4: Scanning electron micrograph (SEM) of open and closed stomata on a lavender leaf",
+    "image": "figure1_output/chapter_8/figures/fig_8_4.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Scanning electron micrograph (SEM) of open and closed stomata on a lavender leaf"
+  },
+  {
+    "page": 182,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.5",
+    "image": "figure1_output/chapter_8/figures/fig_8_5.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": ""
+  },
+  {
+    "page": 183,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.6",
+    "image": "figure1_output/chapter_8/figures/fig_8_6.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": ""
+  },
+  {
+    "page": 185,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.7: Water movement through apoplast, symplast and vacuolar pathways](",
+    "image": "figure1_output/chapter_8/figures/fig_8_7.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Water movement through apoplast, symplast and vacuolar pathways]("
+  },
+  {
+    "page": 185,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.8: Different components of xylem tissue",
+    "image": "figure1_output/chapter_8/figures/fig_8_8.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Different components of xylem tissue"
+  },
+  {
+    "page": 187,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.9: The TACT mechanism of water flow from root to leaf.",
+    "image": "figure1_output/chapter_8/figures/fig_8_9.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "The TACT mechanism of water flow from root to leaf."
+  },
+  {
+    "page": 187,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.10: Different components of phloem tissue.",
+    "image": "figure1_output/chapter_8/figures/fig_8_10.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Different components of phloem tissue."
+  },
+  {
+    "page": 189,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.11: The pressure-flow theory",
+    "image": "figure1_output/chapter_8/figures/fig_8_11.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "The pressure-flow theory"
+  },
+  {
+    "page": 190,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.12: Apical meristem produces the primary plant body and lateral meristem produces the secondary plant body.",
+    "image": "figure1_output/chapter_8/figures/fig_8_12.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Apical meristem produces the primary plant body and lateral meristem produces the secondary plant body."
+  },
+  {
+    "page": 191,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.13: Primary growth in a root",
+    "image": "figure1_output/chapter_8/figures/fig_8_13.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Primary growth in a root"
+  },
+  {
+    "page": 191,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.14: Primary and secondary growth in a plant.",
+    "image": "figure1_output/chapter_8/figures/fig_8_14.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Primary and secondary growth in a plant."
+  },
+  {
+    "page": 192,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.15: Anatomy of a tree trunk showing annual rings",
+    "image": "figure1_output/chapter_8/figures/fig_8_15.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Anatomy of a tree trunk showing annual rings"
+  },
+  {
+    "page": 195,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.16: Effect of Hypertonic, Hypotonic and Isotonic solution to plant cell.",
+    "image": "figure1_output/chapter_8/figures/fig_8_16.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Effect of Hypertonic, Hypotonic and Isotonic solution to plant cell."
+  },
+  {
+    "page": 195,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.17: (a) Waterlily floating in freshwater. (b) Tape grass in freshwater lake.",
+    "image": "figure1_output/chapter_8/figures/fig_8_17.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "(a) Waterlily floating in freshwater. (b) Tape grass in freshwater lake."
+  },
+  {
+    "page": 196,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.18: Examples of mesophytes, left (rose) and right (daisy).",
+    "image": "figure1_output/chapter_8/figures/fig_8_18.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Examples of mesophytes, left (rose) and right (daisy)."
+  },
+  {
+    "page": 196,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.19: A xerophytic plant",
+    "image": "figure1_output/chapter_8/figures/fig_8_19.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "A xerophytic plant"
+  },
+  {
+    "page": 197,
+    "chapter": 8,
+    "type": "figure",
+    "caption": "FIGURE 8.20: Sea Arrowgrass",
+    "image": "figure1_output/chapter_8/figures/fig_8_20.png",
+    "chapter_name": "PLANT PHYSIOLOGY",
+    "caption_detailed": "Sea Arrowgrass"
+  },
+  {
+    "page": 199,
+    "chapter": 8,
+    "type": "table",
+    "caption": "TABLE 8.2",
+    "image": "figure1_output/chapter_8/tables/table_8_2.png",
+    "chapter_name": "PLANT PHYSIOLOGY"
+  },
+  {
+    "page": 203,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.1: Human digestive system",
+    "image": "figure1_output/chapter_9/figures/fig_9_1.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Human digestive system"
+  },
+  {
+    "page": 204,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.2: Location of salivary glands",
+    "image": "figure1_output/chapter_9/figures/fig_9_2.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Location of salivary glands"
+  },
+  {
+    "page": 205,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.3: Swallowing of food",
+    "image": "figure1_output/chapter_9/figures/fig_9_3.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Swallowing of food"
+  },
+  {
+    "page": 205,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.4: Oesophagusand Its Connections",
+    "image": "figure1_output/chapter_9/figures/fig_9_4.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Oesophagusand Its Connections"
+  },
+  {
+    "page": 206,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.5: Peristalsis and Segmentation",
+    "image": "figure1_output/chapter_9/figures/fig_9_5.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Peristalsis and Segmentation"
+  },
+  {
+    "page": 207,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.6",
+    "image": "figure1_output/chapter_9/figures/fig_9_6.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": ""
+  },
+  {
+    "page": 209,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.7: Intestinal wall and detailed structure of villi",
+    "image": "figure1_output/chapter_9/figures/fig_9_7.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Intestinal wall and detailed structure of villi"
+  },
+  {
+    "page": 212,
+    "chapter": 9,
+    "type": "figure",
+    "caption": "FIGURE 9.8: Accessory Digestive Organs",
+    "image": "figure1_output/chapter_9/figures/fig_9_8.png",
+    "chapter_name": "HUMAN DIGESTIVE SYSTEM",
+    "caption_detailed": "Accessory Digestive Organs"
+  },
+  {
+    "page": 216,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.1: ** Some properties of respiratory surface",
+    "image": "figure1_output/chapter_10/figures/fig_10_1.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "** Some properties of respiratory surface"
+  },
+  {
+    "page": 217,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.3: Larynx and Trachea**",
+    "image": "figure1_output/chapter_10/figures/fig_10_3.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Larynx and Trachea**"
+  },
+  {
+    "page": 218,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.4",
+    "image": "figure1_output/chapter_10/figures/fig_10_4.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": ""
+  },
+  {
+    "page": 219,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.5: Right and left lungs",
+    "image": "figure1_output/chapter_10/figures/fig_10_5.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Right and left lungs"
+  },
+  {
+    "page": 219,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.6: Transport of Carbon dioxide by blood",
+    "image": "figure1_output/chapter_10/figures/fig_10_6.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Transport of Carbon dioxide by blood"
+  },
+  {
+    "page": 221,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.7: Mechanism of breathing",
+    "image": "figure1_output/chapter_10/figures/fig_10_7.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Mechanism of breathing"
+  },
+  {
+    "page": 223,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.8",
+    "image": "figure1_output/chapter_10/figures/fig_10_8.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": ""
+  },
+  {
+    "page": 224,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.9: ** Structure of haemoglobin and myoglobin",
+    "image": "figure1_output/chapter_10/figures/fig_10_9.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "** Structure of haemoglobin and myoglobin"
+  },
+  {
+    "page": 225,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.10: Sinuses",
+    "image": "figure1_output/chapter_10/figures/fig_10_10.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Sinuses"
+  },
+  {
+    "page": 226,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.12: Pneumonia",
+    "image": "figure1_output/chapter_10/figures/fig_10_12.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Pneumonia"
+  },
+  {
+    "page": 227,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.13: A lung affected with TB",
+    "image": "figure1_output/chapter_10/figures/fig_10_13.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "A lung affected with TB"
+  },
+  {
+    "page": 227,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.14: A lung affected by COVID",
+    "image": "figure1_output/chapter_10/figures/fig_10_14.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "A lung affected by COVID"
+  },
+  {
+    "page": 228,
+    "chapter": 10,
+    "type": "figure",
+    "caption": "FIGURE 10.15: Emphysema",
+    "image": "figure1_output/chapter_10/figures/fig_10_15.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM",
+    "caption_detailed": "Emphysema"
+  },
+  {
+    "page": 225,
+    "chapter": 10,
+    "type": "table",
+    "caption": "TABLE 10.1",
+    "image": "figure1_output/chapter_10/tables/table_10_1.png",
+    "chapter_name": "HUMAN RESPIRATORY SYSTEM"
+  },
+  {
+    "page": 233,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.1: Pericardium and heart wall",
+    "image": "figure1_output/chapter_11/figures/fig_11_1.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Pericardium and heart wall"
+  },
+  {
+    "page": 234,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.2: Human Heart and valves",
+    "image": "figure1_output/chapter_11/figures/fig_11_2.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Human Heart and valves"
+  },
+  {
+    "page": 235,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.3: Cardiac cycle (one heartbeat)",
+    "image": "figure1_output/chapter_11/figures/fig_11_3.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Cardiac cycle (one heartbeat)"
+  },
+  {
+    "page": 236,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.4: Pacemaker and Its Connections**",
+    "image": "figure1_output/chapter_11/figures/fig_11_4.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Pacemaker and Its Connections**"
+  },
+  {
+    "page": 237,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.5: ** ECG reading of a single heartbeat",
+    "image": "figure1_output/chapter_11/figures/fig_11_5.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "** ECG reading of a single heartbeat"
+  },
+  {
+    "page": 239,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.6: Structure of artery**",
+    "image": "figure1_output/chapter_11/figures/fig_11_6.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Structure of artery**"
+  },
+  {
+    "page": 239,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.7: Structure of capillary**",
+    "image": "figure1_output/chapter_11/figures/fig_11_7.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Structure of capillary**"
+  },
+  {
+    "page": 240,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.9",
+    "image": "figure1_output/chapter_11/figures/fig_11_9.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": ""
+  },
+  {
+    "page": 241,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.10: Pre-capillary sphincters**",
+    "image": "figure1_output/chapter_11/figures/fig_11_10.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Pre-capillary sphincters**"
+  },
+  {
+    "page": 241,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.11: Vasodilation**",
+    "image": "figure1_output/chapter_11/figures/fig_11_11.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Vasodilation**"
+  },
+  {
+    "page": 242,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.12: Velocity of blood, moving in different vessels",
+    "image": "figure1_output/chapter_11/figures/fig_11_12.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Velocity of blood, moving in different vessels"
+  },
+  {
+    "page": 242,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.13: Pulmonary and systemic circulations",
+    "image": "figure1_output/chapter_11/figures/fig_11_13.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Pulmonary and systemic circulations"
+  },
+  {
+    "page": 243,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.14: Coronary circulation",
+    "image": "figure1_output/chapter_11/figures/fig_11_14.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Coronary circulation"
+  },
+  {
+    "page": 244,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.15: Hepatic portal system",
+    "image": "figure1_output/chapter_11/figures/fig_11_15.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Hepatic portal system"
+  },
+  {
+    "page": 245,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.16: Renal portal system**",
+    "image": "figure1_output/chapter_11/figures/fig_11_16.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Renal portal system**"
+  },
+  {
+    "page": 246,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.17",
+    "image": "figure1_output/chapter_11/figures/fig_11_17.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": ""
+  },
+  {
+    "page": 247,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.18: An angiogram, showing blood flow in coronary arteries",
+    "image": "figure1_output/chapter_11/figures/fig_11_18.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "An angiogram, showing blood flow in coronary arteries"
+  },
+  {
+    "page": 248,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.19: Coronary bypass",
+    "image": "figure1_output/chapter_11/figures/fig_11_19.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Coronary bypass"
+  },
+  {
+    "page": 249,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.20: Angioplasty and stenting",
+    "image": "figure1_output/chapter_11/figures/fig_11_20.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Angioplasty and stenting"
+  },
+  {
+    "page": 250,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.21: ** Formation of lymph",
+    "image": "figure1_output/chapter_11/figures/fig_11_21.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "** Formation of lymph"
+  },
+  {
+    "page": 251,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.22: Human lymphatic system",
+    "image": "figure1_output/chapter_11/figures/fig_11_22.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "Human lymphatic system"
+  },
+  {
+    "page": 252,
+    "chapter": 11,
+    "type": "figure",
+    "caption": "FIGURE 11.23: ** A lymph node",
+    "image": "figure1_output/chapter_11/figures/fig_11_23.png",
+    "chapter_name": "HUMAN CIRCULATORY SYSTEM",
+    "caption_detailed": "** A lymph node"
+  },
+  {
+    "page": 256,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.1: Structure of bone",
+    "image": "figure1_output/chapter_12/figures/fig_12_1.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Structure of bone"
+  },
+  {
+    "page": 257,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.2: Types of bone cells",
+    "image": "figure1_output/chapter_12/figures/fig_12_2.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Types of bone cells"
+  },
+  {
+    "page": 258,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.3: Development of bone from cartilage",
+    "image": "figure1_output/chapter_12/figures/fig_12_3.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Development of bone from cartilage"
+  },
+  {
+    "page": 259,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.4: Cartilage types",
+    "image": "figure1_output/chapter_12/figures/fig_12_4.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Cartilage types"
+  },
+  {
+    "page": 260,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.5: Human skull",
+    "image": "figure1_output/chapter_12/figures/fig_12_5.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Human skull"
+  },
+  {
+    "page": 261,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.6",
+    "image": "figure1_output/chapter_12/figures/fig_12_6.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": ""
+  },
+  {
+    "page": 261,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.7: Middle ear ossicles",
+    "image": "figure1_output/chapter_12/figures/fig_12_7.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Middle ear ossicles"
+  },
+  {
+    "page": 262,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.8: Vertebral column",
+    "image": "figure1_output/chapter_12/figures/fig_12_8.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Vertebral column"
+  },
+  {
+    "page": 262,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.8: Vertebral column",
+    "image": "figure1_output/chapter_12/figures/fig_12_8_duplicate_2.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Vertebral column"
+  },
+  {
+    "page": 265,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.10: (a)- Types of joints; (b)- Structure of a synovial joint",
+    "image": "figure1_output/chapter_12/figures/fig_12_10.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "(a)- Types of joints; (b)- Structure of a synovial joint"
+  },
+  {
+    "page": 266,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.11: ** Disc slip (herniation)",
+    "image": "figure1_output/chapter_12/figures/fig_12_11.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "** Disc slip (herniation)"
+  },
+  {
+    "page": 266,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.12: ** Spondylosis",
+    "image": "figure1_output/chapter_12/figures/fig_12_12.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "** Spondylosis"
+  },
+  {
+    "page": 267,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.13: Sciatica and its causes**",
+    "image": "figure1_output/chapter_12/figures/fig_12_13.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Sciatica and its causes**"
+  },
+  {
+    "page": 267,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.14: Types of arthritis**",
+    "image": "figure1_output/chapter_12/figures/fig_12_14.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Types of arthritis**"
+  },
+  {
+    "page": 268,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.15: Normal bone and osteoporosis",
+    "image": "figure1_output/chapter_12/figures/fig_12_15.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Normal bone and osteoporosis"
+  },
+  {
+    "page": 268,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.16: Dislocation in elbow joint",
+    "image": "figure1_output/chapter_12/figures/fig_12_16.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Dislocation in elbow joint"
+  },
+  {
+    "page": 269,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.17: ** Ankle sprain",
+    "image": "figure1_output/chapter_12/figures/fig_12_17.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "** Ankle sprain"
+  },
+  {
+    "page": 269,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.18: ** First aid treatment for dislocation or sprain",
+    "image": "figure1_output/chapter_12/figures/fig_12_18.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "** First aid treatment for dislocation or sprain"
+  },
+  {
+    "page": 271,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.19: Types of muscles",
+    "image": "figure1_output/chapter_12/figures/fig_12_19.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Types of muscles"
+  },
+  {
+    "page": 272,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.20: Ultrastructure of skeletal muscle**",
+    "image": "figure1_output/chapter_12/figures/fig_12_20.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Ultrastructure of skeletal muscle**"
+  },
+  {
+    "page": 273,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.21: Structure of myofilaments",
+    "image": "figure1_output/chapter_12/figures/fig_12_21.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Structure of myofilaments"
+  },
+  {
+    "page": 273,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.22: Sliding filament model of muscle contraction",
+    "image": "figure1_output/chapter_12/figures/fig_12_22.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Sliding filament model of muscle contraction"
+  },
+  {
+    "page": 274,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.23: Steps of a power-stroke (cross bridge cycle)",
+    "image": "figure1_output/chapter_12/figures/fig_12_23.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Steps of a power-stroke (cross bridge cycle)"
+  },
+  {
+    "page": 275,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.24: Arrangement of skeletal muscles at elbow joint",
+    "image": "figure1_output/chapter_12/figures/fig_12_24.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Arrangement of skeletal muscles at elbow joint"
+  },
+  {
+    "page": 275,
+    "chapter": 12,
+    "type": "figure",
+    "caption": "FIGURE 12.25: Movement at knee joint",
+    "image": "figure1_output/chapter_12/figures/fig_12_25.png",
+    "chapter_name": "HUMAN SKELETAL & MUSCULAR SYSTEMS",
+    "caption_detailed": "Movement at knee joint"
+  }
+]
