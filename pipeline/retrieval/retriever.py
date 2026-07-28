@@ -15,7 +15,7 @@ class RAGPipeline:
             embedding_function=self.embedding_model
         )
 
-    def retrieve_context(self, query: str, k: int = 4) -> list:
+    def retrieve_context(self, query: str, k: int = 5) -> list:
         """Retrieves top-k relevant documents from ChromaDB with a score threshold filter."""
         results = self.vector_db.similarity_search_with_score(query, k=k)
         return results
