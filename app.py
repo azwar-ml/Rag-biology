@@ -58,6 +58,11 @@ def main():
                     print(f"[!] Error: Path missing. Available data keys: {list(fig_data.keys())}")
                     print(f"Raw data: {fig_data}")
 
+            # --- ADDED STEP: Catch strict missing figure requests ---
+            elif "not found in the database" in image_result.get("message", ""):
+                print(f"[-] {image_result['message']}")
+                continue
+
             # --- STEP 2: FALLBACK TO TEXT RAG (Restored) ---
             else:
                 print("[*] Searching indexed textbooks and guides...")

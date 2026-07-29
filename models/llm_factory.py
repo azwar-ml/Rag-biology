@@ -24,50 +24,79 @@ class LLMFactory:
                     response = client.models.generate_content(
                         model=model,
                         contents=prompt,
-                        # CHANGED: temperature=0.0 for strict verbatim extraction
-                        config=types.GenerateContentConfig(temperature=0.0, system_instruction=system_instruction)
+                        # temperature=0.0 for strict verbatim extraction
+                        config=types.GenerateContentConfig(
+                            temperature=0.0, 
+                            system_instruction=system_instruction if system_instruction else None
+                        )
                     )
-                    if response.text: return response.text
-                    else: raise Exception("Empty response from Gemini")
+                    if response and response.text:
+                        return response.text
+                    else:
+                        raise Exception("Empty response from Gemini")
 
                 elif provider == "openrouter":
                     res = requests.post(
                         "https://openrouter.ai/api/v1/chat/completions",
                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                        # CHANGED: temperature: 0.0
-                        json={"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.0}
+                        json={
+                            "model": model, 
+                            "messages": [
+                                {"role": "system", "content": system_instruction if system_instruction else ""}, 
+                                {"role": "user", "content": prompt}
+                            ], 
+                            "temperature": 0.0
+                        },
+                        timeout=15
                     )
-                    if res.status_code == 200: return res.json()["choices"][0]["message"]["content"]
-                    else: raise Exception(f"OpenRouter Error: {res.text}")
+                    if res.status_code == 200:
+                        return res.json()["choices"][0]["message"]["content"]
+                    else:
+                        raise Exception(f"OpenRouter Error: {res.text}")
 
                 elif provider == "huggingface":
                     res = requests.post(
                         f"https://api-inference.huggingface.co/models/{model}/v1/chat/completions",
                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                        # CHANGED: temperature: 0.0
-                        json={"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.0, "max_tokens": 1000}
+                        json={
+                            "model": model, 
+                            "messages": [
+                                {"role": "system", "content": system_instruction if system_instruction else ""}, 
+                                {"role": "user", "content": prompt}
+                            ], 
+                            "temperature": 0.0, 
+                            "max_tokens": 1000
+                        },
+                        timeout=15
                     )
-                    if res.status_code == 200: return res.json()["choices"][0]["message"]["content"]
-                    else: raise Exception(f"HuggingFace Error: {res.text}")
+                    if res.status_code == 200:
+                        return res.json()["choices"][0]["message"]["content"]
+                    else:
+                        raise Exception(f"HuggingFace Error: {res.text}")
 
                 elif provider == "cohere":
                     res = requests.post(
                         "https://api.cohere.com/v1/chat",
                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                        # CHANGED: temperature: 0.0
-                        json={"model": model, "message": prompt, "preamble": system_instruction, "temperature": 0.0}
+                        json={
+                            "model": model, 
+                            "message": prompt, 
+                            "preamble": system_instruction if system_instruction else "", 
+                            "temperature": 0.0
+                        },
+                        timeout=15
                     )
-                    if res.status_code == 200: return res.json()["text"]
-                    else: raise Exception(f"Cohere Error: {res.text}")
-                        
-            # ... [keep the bottom part of the file the same] ...
+                    if res.status_code == 200:
+                        return res.json().get("text", "")
+                    else:
+                        raise Exception(f"Cohere Error: {res.text}")
                         
             except Exception as e:
                 # Print the exact error so we know WHY it failed
-                print(f" -> [Debug] {provider.upper()} Error: {str(e)}")
+                print(f" -> [Debug] {provider.upper()} Error (Attempt {attempts + 1}/{max_retries}): {str(e)}")
                 
-                # Fallback to the next provider
+                # Fallback to the next provider/key
                 key_manager.mark_config_exhausted()
                 attempts += 1
                 
-        return "Error: All 5 AI providers failed. Please try again later."
+        return "Error: All available API keys and fallback providers failed. Please try again later."

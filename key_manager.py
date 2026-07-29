@@ -5,22 +5,25 @@ load_dotenv()
 
 class MultiProviderKeyManager:
     def __init__(self):
-        # The fallback loop: Provider -> Key -> Heavy Free Model
-        # The fallback loop: Provider -> Key -> Heavy Free Model
+        # The fallback loop: Priority Provider -> Key -> Model
         raw_configs = [
-            # 1. Gemini (Flash-Lite is Google's lowest-latency free model, built specifically for high-speed routing)
-            {"provider": "gemini", "key": os.getenv("GEMINI_API_KEY_1"), "model": "gemini-3.1-flash-lite"},
+            # --- PRIMARY POOL: GEMINI ---
+            # Updated to 2.0/2.5-flash to fix the 404 Not Found error
+            {"provider": "gemini", "key": os.getenv("GEMINI_API_KEY_1"), "model": "gemini-2.5-flash"},
+            {"provider": "gemini", "key": os.getenv("GEMINI_API_KEY_2"), "model": "gemini-2.5-flash"},
+            {"provider": "gemini", "key": os.getenv("GEMINI_API_KEY_3"), "model": "gemini-2.5-flash"},
             
-            # 2. OpenRouter (Llama 3.2 3B is blisteringly fast for lightweight extraction and classification)
-            {"provider": "openrouter", "key": os.getenv("OPENROUTER_API_KEY_1"), "model": "meta-llama/llama-3.2-3b-instruct:free"},
+            # --- SECONDARY POOL: FALLBACK PROVIDERS ---
+            # Updated to a working, stable FREE model on OpenRouter
+            {"provider": "openrouter", "key": os.getenv("OPENROUTER_API_KEY_1"), "model": "meta-llama/llama-3.1-8b-instruct:free"},
             
-            # 3. HuggingFace (Llama 3 8B remains the most reliably cached, fastest-to-respond model on their Serverless API)
+            # 2. HuggingFace 
             {"provider": "huggingface", "key": os.getenv("HF_API_KEY_1"), "model": "meta-llama/Meta-Llama-3-8B-Instruct"},
             
-            # 4. Cohere (Standard Command R 08-2024 delivers 50% higher throughput and 20% lower latency than previous versions)
+            # 3. Cohere 
             {"provider": "cohere", "key": os.getenv("COHERE_API_KEY_1"), "model": "command-r-08-2024"},
             
-            # 5. OpenRouter Backup (Nemotron Nano 30B is a small Mixture-of-Experts model designed for fast inference)
+            # 4. OpenRouter Backup 
             {"provider": "openrouter", "key": os.getenv("BACKUP_API_KEY"), "model": "nvidia/nemotron-3-nano-30b-a3b:free"}
         ]
         

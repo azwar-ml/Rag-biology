@@ -24,34 +24,42 @@ def get_data_uri(image_path: str, base64_data: str) -> str:
         mime_type = "image/png"
     return f"data:{mime_type};base64,{base64_data}"
 
+import re
+
 def validate_image_match(query: str, caption: str) -> bool:
     """
-    Validates if the retrieved image caption actually aligns with the user's query.
+    Strictly validates if the retrieved image caption matches the user's query.
+    If a specific figure number is requested, it MUST match precisely.
     """
     query_lower = query.lower()
     caption_lower = caption.lower()
 
-    # 1. Check for specific figure requests (e.g., "figure 2.1")
-    # Matches "figure 1", "fig 2.1", "figure 3-2", etc.
-    fig_pattern = r'fig(?:ure)?\s*[-_]?\s*(\d+(?:[\.\-]\d+)?)'
+    # 1. Extract explicit figure numbers from the query (e.g., "4.1", "10.2", "fig 3.3")
+    fig_pattern = r'(?:fig|figure|image|img)\s*[-_]?\s*(\d+(?:[\.\-]\d+)?)'
     query_figures = re.findall(fig_pattern, query_lower)
     
     if query_figures:
-        # If user asked for a specific figure number, it MUST be in the caption
-        return any(q_fig in caption_lower for q_fig in query_figures)
+        # Extract figure numbers from the retrieved caption to compare accurately
+        caption_figures = re.findall(r'(?:fig|figure)\s*[-_]?\s*(\d+(?:[\.\-]\d+)?)', caption_lower)
+        
+        # If the user asked for specific figures, every requested figure must be present in the caption
+        for q_fig in query_figures:
+            # Normalize formats like "4-1" or "4.1"
+            normalized_q = q_fig.replace('-', '.')
+            match_found = any(normalized_q == c_fig.replace('-', '.') for c_fig in caption_figures)
+            if not match_found:
+                return False  # Strict rejection: wrong figure number!
+        return True
 
     # 2. Fallback to keyword overlap for descriptive queries (e.g., "electron microscope")
-    # Remove common filler words that might cause false positives
-    stop_words = {"picture", "of", "show", "me", "a", "the", "image", "give", "can", "you", "is", "what", "an", "and"}
+    stop_words = {"picture", "of", "show", "me", "a", "the", "image", "give", "can", "you", "is", "what", "an", "and", "figure", "fig"}
     
     query_words = set(re.findall(r'\b[a-z]{3,}\b', query_lower)) - stop_words
     caption_words = set(re.findall(r'\b[a-z]{3,}\b', caption_lower)) - stop_words
 
-    # If there is at least one meaningful keyword overlap, allow it
     if query_words.intersection(caption_words):
         return True
 
-    # If neither condition is met, the image is likely a hallucination/bad retrieval
     return False
 
 @router.post("/ask", response_model=QueryResponse, tags=["RAG Interface"])
