@@ -2,6 +2,7 @@ import os
 import base64
 import mimetypes
 import re
+import asyncio
 from fastapi import APIRouter, HTTPException
 
 from api.request_models import QueryRequest
@@ -24,34 +25,23 @@ def get_data_uri(image_path: str, base64_data: str) -> str:
         mime_type = "image/png"
     return f"data:{mime_type};base64,{base64_data}"
 
-import re
-
 def validate_image_match(query: str, caption: str) -> bool:
-    """
-    Strictly validates if the retrieved image caption matches the user's query.
-    If a specific figure number is requested, it MUST match precisely.
-    """
     query_lower = query.lower()
     caption_lower = caption.lower()
 
-    # 1. Extract explicit figure numbers from the query (e.g., "4.1", "10.2", "fig 3.3")
     fig_pattern = r'(?:fig|figure|image|img)\s*[-_]?\s*(\d+(?:[\.\-]\d+)?)'
     query_figures = re.findall(fig_pattern, query_lower)
     
     if query_figures:
-        # Extract figure numbers from the retrieved caption to compare accurately
         caption_figures = re.findall(r'(?:fig|figure)\s*[-_]?\s*(\d+(?:[\.\-]\d+)?)', caption_lower)
         
-        # If the user asked for specific figures, every requested figure must be present in the caption
         for q_fig in query_figures:
-            # Normalize formats like "4-1" or "4.1"
             normalized_q = q_fig.replace('-', '.')
             match_found = any(normalized_q == c_fig.replace('-', '.') for c_fig in caption_figures)
             if not match_found:
-                return False  # Strict rejection: wrong figure number!
+                return False 
         return True
 
-    # 2. Fallback to keyword overlap for descriptive queries (e.g., "electron microscope")
     stop_words = {"picture", "of", "show", "me", "a", "the", "image", "give", "can", "you", "is", "what", "an", "and", "figure", "fig"}
     
     query_words = set(re.findall(r'\b[a-z]{3,}\b', query_lower)) - stop_words
@@ -62,53 +52,99 @@ def validate_image_match(query: str, caption: str) -> bool:
 
     return False
 
+
 @router.post("/ask", response_model=QueryResponse, tags=["RAG Interface"])
-def ask_question(request: QueryRequest):
+async def ask_question(request: QueryRequest):
     logger.info(f"Received query: {request.query}")
     try:
-        # --- STEP 1: IMAGE RETRIEVAL CHECK ---
-        image_result = img_retriever.retrieve_image(request.query)
+        image_markdown = ""
+        image_sources = []
 
-        if image_result.get("status") == "success" and image_result.get("data"):
+        # Prepare text-only query by removing explicit image requests
+        text_query = re.sub(r'(?i)\b(?:and\s+)?(?:show\s+(?:me\s+)?)?(?:figure|fig|image)\s*[-_]?\s*\d+(?:[\.]\d+)?\b', '', request.query).strip()
+
+        # Determine if the user specifically requested an image/figure
+        image_requested = bool(re.search(r'(?i)(?:figure|fig|image|img|diagram)\s*[-_]?\s*\d+(?:[\.]\d+)?', request.query))
+
+        # Route guide queries strictly to Guide database
+        guide_keywords = ["guide", "mcq", "mcqs", "practice", "practice question", "practice questions", "exercise"]
+        force_book_type = None
+        rq_lower = request.query.lower()
+        if any(k in rq_lower for k in guide_keywords):
+            force_book_type = "Guide"
+
+        # Run image retrieval and text RAG concurrently when both are relevant
+        tasks = []
+        if image_requested:
+            tasks.append(asyncio.to_thread(img_retriever.retrieve_image, request.query))
+
+        # Only run text pipeline if there's remaining text to search
+        text_task = None
+        if text_query:
+            # Clean conversational filler here as well for the RAG call
+            filler_patterns = [
+                r'(?i)\b(?:explain the process of|explain in detail|step by step|detailed notes on|what is the definition of|what is|can you explain|tell me about)\b',
+                r'(?i)\b(?:please|kindly|how do|how does|why do|why does)\b'
+            ]
+            search_query = text_query
+            for pattern in filler_patterns:
+                search_query = re.sub(pattern, '', search_query).strip()
+            if not search_query:
+                search_query = text_query
+
+            text_task = asyncio.to_thread(rag_pipeline.answer_query, search_query, force_book_type)
+            tasks.append(text_task)
+
+        # If nothing to do, return empty
+        if not tasks:
+            return QueryResponse(answer="", sources=[])
+
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # Parse results
+        image_result = None
+        text_result = None
+        for res in results:
+            if isinstance(res, Exception):
+                logger.error(f"Background task error: {res}")
+                continue
+            # Heuristics: image retriever returns dict with status key
+            if isinstance(res, dict) and res.get("status") in ("success", "not_found", "error"):
+                image_result = res
+            elif isinstance(res, dict) and "answer" in res:
+                text_result = res
+
+        # Process image result if present
+        if image_result and image_result.get("status") == "success" and image_result.get("data"):
             fig_data = image_result["data"][0]
             caption = fig_data.get('caption', '')
-            
-            # APPLY VALIDATION HERE
             is_valid = validate_image_match(request.query, caption)
-            
             if is_valid:
                 img_path = fig_data.get('image') or fig_data.get('image_path') or fig_data.get('file_path')
-
                 if img_path:
-                    # Temporary fix for your path naming
                     img_path = img_path.replace("figure1_output", "figure1_output - Copy")
-                    
                     if os.path.exists(img_path):
                         base64_img = encode_image_to_base64(img_path)
                         data_uri = get_data_uri(img_path, base64_img)
-                        
                         display_caption = caption if caption else "Requested Figure"
-                        markdown_answer = f"Here is the figure you requested:\n\n**{display_caption}**\n\n![{display_caption}]({data_uri})"
-                        
-                        logger.info(f"Successfully returned valid image response for: {display_caption}")
-                        return QueryResponse(
-                            answer=markdown_answer,
-                            sources=[f"Image Match: {img_path}"]
-                        )
+                        image_markdown = f"**{display_caption}**\n\n![{display_caption}]({data_uri})\n\n"
+                        image_sources = [f"Image Match: {img_path}"]
+                        logger.info(f"Successfully loaded image for: {display_caption}")
                     else:
                         logger.warning(f"Image valid but missing on disk: {img_path}")
             else:
                 logger.warning(f"Image rejected. Query '{request.query}' did not match retrieved caption: '{caption}'")
 
-        # --- STEP 2: FALLBACK TO TEXT RAG ---
-        # If image was not found, OR if it failed validation, generate text.
-        logger.info("Generating text fallback response...")
-        result = rag_pipeline.answer_query(request.query)
-        
-        return QueryResponse(
-            answer=result["answer"],
-            sources=result.get("sources", [])
-        )
+        # Merge image markdown and text results safely
+        if text_result:
+            cleaned_text_answer = re.sub(r'!\[.*?\]\(.*?\)', '', text_result.get("answer", ""))
+            final_answer = (image_markdown or "") + cleaned_text_answer
+            final_sources = (image_sources or []) + text_result.get("sources", [])
+        else:
+            final_answer = image_markdown
+            final_sources = image_sources
+
+        return QueryResponse(answer=final_answer, sources=final_sources)
         
     except Exception as e:
         logger.error(f"Error processing query: {str(e)}", exc_info=True)

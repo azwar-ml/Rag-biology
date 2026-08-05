@@ -24,7 +24,7 @@ class LLMFactory:
                     response = client.models.generate_content(
                         model=model,
                         contents=prompt,
-                        # temperature=0.0 for strict verbatim extraction
+                        # temperature=0.0 forces strict verbatim extraction
                         config=types.GenerateContentConfig(
                             temperature=0.0, 
                             system_instruction=system_instruction if system_instruction else None
@@ -64,6 +64,7 @@ class LLMFactory:
                                 {"role": "system", "content": system_instruction if system_instruction else ""}, 
                                 {"role": "user", "content": prompt}
                             ], 
+                            # HuggingFace OpenAI-compat layer accepts 0.0 for deterministic output
                             "temperature": 0.0, 
                             "max_tokens": 1000
                         },

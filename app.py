@@ -27,6 +27,11 @@ def main():
                 print("[*] Exiting RAG Terminal. Goodbye!")
                 break
 
+            # Check if the user is ONLY asking for an image so we can skip text generation
+            is_pure_image_request = False
+            if len(query.split()) <= 4 and any(kw in query.lower() for kw in ['show', 'figure', 'fig', 'image']):
+                is_pure_image_request = True
+
             # --- STEP 1: IMAGE RETRIEVAL CHECK ---
             image_result = img_retriever.retrieve_image(query)
 
@@ -61,10 +66,12 @@ def main():
             # --- ADDED STEP: Catch strict missing figure requests ---
             elif "not found in the database" in image_result.get("message", ""):
                 print(f"[-] {image_result['message']}")
-                continue
+                # If they only asked for an image and it's missing, loop back to the start
+                if is_pure_image_request:
+                    continue
 
-            # --- STEP 2: FALLBACK TO TEXT RAG (Restored) ---
-            else:
+            # --- STEP 2: TEXT RAG (No longer in an 'else' block) ---
+            if not is_pure_image_request:
                 print("[*] Searching indexed textbooks and guides...")
                 result = rag_pipeline.answer_query(query)
 
